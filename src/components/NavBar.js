@@ -6,7 +6,7 @@ import {motion} from "framer-motion";
 import useThemeSwitcher from "@/components/hooks/useThemeSwitcher";
 import {useState} from "react";
 
-const CustomLink = ({href, title, className="", toggle}) => {
+const CustomLink = ({href, title, className=""}) => {
     const router = useRouter();
 
 
@@ -19,7 +19,6 @@ const CustomLink = ({href, title, className="", toggle}) => {
             group-hover:w-full transition-[width] ease duration-300
             ${router.pathname === href ? 'w-full' : 'w-0'}
             dark:bg-light`}
-
             >&nbsp;</span>
         </Link>
     )
@@ -58,7 +57,7 @@ const NavBar = () => {
     }
 
     return (
-        <header className='w-full px-32 py-8 mb-8 font-medium flex items-center justify-between
+        <header className='w-full px-32 py-8 mb-8 font-semibold text-lg flex items-center justify-between text-blue-900
         dark:text-light
         '>
 

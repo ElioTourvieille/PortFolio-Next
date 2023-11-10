@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta charSet="UTF-8" />
         <title>Eric Tourvieille | Développeur Web</title>
         <meta name="description" content="Eric Tourvieille Développeur Web Portfolio" />
       </Head>
