@@ -7,6 +7,7 @@ import Link from "next/link";
 import {LinkArrow} from "@/components/Icons";
 import HireMe from "@/components/HireMe";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
+import TransitionEffect from "@/components/TransitionEffect";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <title>Eric Tourvieille | Développeur Web</title>
         <meta name="description" content="Eric Tourvieille Développeur Web Portfolio" />
       </Head>
+        <TransitionEffect />
       <main className="flex items-start text-dark w-full min-h-screen dark:text-light">
           <Layout className='lg:pt-0 md:p-16 sm:pt-8'>
               <div className="flex items-center justify-between w-full xl:flex-row lg:flex-col">
