@@ -7,6 +7,7 @@ import webDesign from "../../public/images/profile/design-creatif (1).png";
 import webDevelopment from "../../public/images/profile/www.png";
 import devApp from "../../public/images/profile/developpement-dapplications.png";
 import Skills from "@/components/Skills";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const About = () => {
     return (
@@ -15,6 +16,7 @@ const About = () => {
                 <title>Eric Tourvieille | A propos</title>
                 <meta name="description" content="Eric Tourvieille Développeur Web Portfolio" />
             </Head>
+            <TransitionEffect />
             <main className="flex w-full flex-col items-center justify-center mb-16
             dark:text-light
             ">

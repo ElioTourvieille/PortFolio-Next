@@ -8,6 +8,7 @@ import project1 from "../../public/images/projects/project1.png";
 import project2 from "../../public/images/projects/project2.png";
 import project3 from "../../public/images/projects/project3.png";
 import project4 from "../../public/images/projects/project4.png";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -94,6 +95,7 @@ const projects = () => {
                 <title>Eric Tourvieille | Projets</title>
                 <meta name="description" content="Eric Tourvieille Développeur Web Portfolio"/>
             </Head>
+            <TransitionEffect />
             <main className='w-full mb-32 flex flex-col items-center justify-center'>
                 <Layout className='pt-16'>
                     <AnimatedText

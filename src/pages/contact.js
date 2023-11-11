@@ -3,6 +3,7 @@ import AnimatedText from "@/components/AnimatedText";
 import {BsArrowRight} from "react-icons/bs";
 import Layout from "@/components/Layout";
 import {useState} from "react";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const Contact = () => {
 
@@ -47,6 +48,7 @@ const Contact = () => {
                 <title>Eric Tourvieille | Contact</title>
                 <meta name="description" content="Eric Tourvieille Développeur Web Portfolio"/>
             </Head>
+            <TransitionEffect />
             <main className='w-full mb-16 flex flex-col items-center justify-center'>
                 <Layout className='pt-16'>
                     <AnimatedText
