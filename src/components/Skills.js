@@ -87,7 +87,7 @@ const Skills = () => {
         <>
             <h2 className='font-bold text-7xl mt-40 mb-24 w-full text-center lg:!text-6xl sm:!text-4xl xs:!text-3xl sm:mb-8'>Compétences</h2>
             <div className='mx-auto max-w-7xl'>
-            <p className="font-medium sm:text-sm">`Mon axe d'apprentissage est orienté full-stack et toutes les technologies et outils qui gravitent autour, afin
+            <p className="font-medium sm:text-sm">Mon axe d'apprentissage est orienté full-stack et toutes les technologies et outils qui gravitent autour, afin
                de pouvoir être impliqué dans les différentes étapes d'un projet.</p>
             <p className='my-4 font-medium sm:text-sm'>La formation et les projets que j'ai effectués m'ont naturellement orientés vers une stack MERN
                 (MongoDB, Express, React, Node). Cependant, comme chaque projet possèdent leurs propres spécificités,
