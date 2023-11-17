@@ -24,17 +24,17 @@ const About = () => {
                     <AnimatedText text="Développeur Passionné !" className="!text-7xl mb-20 lg:!text-6xl sm:!text-4xl xs:!text-3xl sm:mb-8"/>
                     <div className='grid w-full grid-cols-8 gap-12 sm:gap-6'>
                         <div className='col-span-3 flex flex-col items-start justify-center xl:col-span-4 md:order-2 md:col-span-8'>
-                            <h2 className='mb-8 text-3xl font-bold uppercase text-dark/75 dark:text-light/75 '>A propos de moi</h2>
-                            <p className='font-medium'>
+                            <h2 className='mb-8 text-3xl font-bold uppercase text-dark/75 dark:text-light/75 md:text-2xl'>A propos de moi</h2>
+                            <p className='font-medium sm:text-sm'>
                                 Bonjour, je suis Eric Tourvieille, développeur Web et Python avec une passion pour la création d’expériences numériques belles, fonctionnelles et centrées sur l’utilisateur.
                                 Je suis toujours à la recherche de nouvelles façons novatrices de concrétiser la vision de mes clients.
                             </p>
 
-                            <p className='my-4 font-medium'>
+                            <p className='my-4 font-medium sm:text-sm'>
                                 Je crois que le développement web ne se limite pas à coder des choses – il s’agit de résoudre des problèmes et de créer des expériences intuitives et agréables pour les utilisateurs.
                             </p>
 
-                            <p className='font-medium'>
+                            <p className='font-medium sm:text-sm'>
                                 Que je travaille sur un site web, une application ou un autre produit numérique, j’apporte mon engagement envers l’excellence et la pensée centrée sur l’utilisateur
                                 à chaque projet sur lequel je travaille. J’ai hâte d’apporter mes compétences et ma passion à votre prochain projet.
                             </p>
