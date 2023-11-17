@@ -6,9 +6,9 @@ const Footer = () => {
         font-medium text-lg
         dark:text-light dark:border-light sm:text-base
         '>
-            <Layout className='py-8 flex items-center justify-between xl:py-6 lg:flex-col lg:py-4'>
+            <Layout className='pt-8 pb-8 flex items-center justify-between xl:py-6 lg:flex-col lg:p-4'>
                 <span>{new Date().getFullYear()} &copy; Tous droits réservés.</span>
-                <p>Conçu et réalisé par Eric Tourvieille</p>
+                <p className="mb-2">Conçu et réalisé par Eric Tourvieille</p>
             </Layout>
         </footer>
     );

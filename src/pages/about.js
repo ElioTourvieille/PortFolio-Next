@@ -21,7 +21,7 @@ const About = () => {
             dark:text-light
             ">
                 <Layout className='pt-16'>
-                    <AnimatedText text="Développeur Passionné !" className="!text-7xl mb-20 lg:!text-6xl sm:!text-5xl xs:!text-4xl sm:mb-8"/>
+                    <AnimatedText text="Développeur Passionné !" className="!text-7xl mb-20 lg:!text-6xl sm:!text-4xl xs:!text-3xl sm:mb-8"/>
                     <div className='grid w-full grid-cols-8 gap-12 sm:gap-6'>
                         <div className='col-span-3 flex flex-col items-start justify-center xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-8 text-3xl font-bold uppercase text-dark/75 dark:text-light/75 '>A propos de moi</h2>

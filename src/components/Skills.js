@@ -104,7 +104,7 @@ const Skills = () => {
             hover:bg-dark hover:text-light transition-all ease duration-300
             ${activeTab === 'tab1' ? 'bg-dark text-light dark:bg-light dark:text-dark' : 'bg-light text-dark dark:bg-dark dark:text-light'}
             dark:border-light
-            lg:px-16 lg:text-sm md:px-12 sm:px-10 sm:py-3 sm:text-xs
+            lg:px-16 lg:text-sm md:px-12 sm:px-10 sm:py-3 sm:text-xs xs:px-6 xs:py-2
             `} onClick={() => handleTabChange('tab1')}
                         >FRONTEND</label>
 
@@ -113,7 +113,7 @@ const Skills = () => {
             hover:bg-dark hover:text-light transition-all ease duration-300
             ${activeTab === 'tab2' ? 'bg-dark text-light dark:bg-light dark:text-dark' : 'bg-light text-dark dark:bg-dark dark:text-light'}
             dark:border-light
-            lg:px-16 lg:text-sm md:px-12 sm:px-10 sm:py-3 sm:text-xs
+            lg:px-16 lg:text-sm md:px-12 sm:px-10 sm:py-3 sm:text-xs xs:px-6 xs:py-2
             `} onClick={() => handleTabChange('tab2')}
                         >BACKEND</label>
 
@@ -122,7 +122,7 @@ const Skills = () => {
             hover:bg-dark hover:text-light transition-all ease duration-300
             ${activeTab === 'tab3' ? 'bg-dark text-light dark:bg-light dark:text-dark' : 'bg-light text-dark dark:bg-dark dark:text-light'}
             dark:border-light
-            lg:px-16 lg:text-sm md:px-12 sm:px-10 sm:py-3 sm:text-xs
+            lg:px-16 lg:text-sm md:px-12 sm:px-10 sm:py-3 sm:text-xs xs:px-6 xs:py-2
             `} onClick={() => handleTabChange('tab3')}
                         >OUTILS</label>
                     </div>
