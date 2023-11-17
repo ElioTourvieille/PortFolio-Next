@@ -49,7 +49,7 @@ const About = () => {
                             />
                         </div>
 
-                        <div className="col-span-2 flex flex-col items-end justify-between ml-8 xl:col-span-8 xl:flex-row xl:items-center md:order-3">
+                        <div className="col-span-2 flex flex-col items-end justify-between ml-8 xl:col-span-8 xl:flex-row xl:items-center md:order-3 xl:ml-0">
                             <div className='flex flex-col items-center justify-center'>
                                 <span className='flex flex-col items-center justify-center'>
                                     <Image src={webDesign} alt='Web Design' className='w-1/4 mb-2 dark:bg-light dark:rounded-lg sm:w-1/3' />

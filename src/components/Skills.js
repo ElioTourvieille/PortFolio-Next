@@ -85,7 +85,7 @@ const Skills = () => {
 
     return (
         <>
-            <h2 className='font-bold text-7xl mt-40 mb-24 w-full text-center lg:!text-6xl sm:!text-5xl xs:!text-4xl sm:mb-8'>Compétences</h2>
+            <h2 className='font-bold text-7xl mt-40 mb-24 w-full text-center lg:!text-6xl sm:!text-4xl xs:!text-3xl sm:mb-8'>Compétences</h2>
             <div className='mx-auto max-w-7xl'>
             <p className="font-medium">`Mon axe d'apprentissage est orienté full-stack et toutes les technologies et outils qui gravitent autour, afin
                de pouvoir être impliqué dans les différentes étapes d'un projet.</p>
