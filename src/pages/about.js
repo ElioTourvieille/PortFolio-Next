@@ -21,9 +21,9 @@ const About = () => {
             dark:text-light
             ">
                 <Layout className='pt-16'>
-                    <AnimatedText text="Développeur Passionné !" className="!text-7xl mb-20"/>
-                    <div className='grid w-full grid-cols-8 gap-12'>
-                        <div className='col-span-3 flex flex-col items-start justify-center'>
+                    <AnimatedText text="Développeur Passionné !" className="!text-7xl mb-20 lg:!text-6xl sm:!text-5xl xs:!text-4xl sm:mb-8"/>
+                    <div className='grid w-full grid-cols-8 gap-12 sm:gap-6'>
+                        <div className='col-span-3 flex flex-col items-start justify-center xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-8 text-3xl font-bold uppercase text-dark/75 dark:text-light/75 '>A propos de moi</h2>
                             <p className='font-medium'>
                                 Bonjour, je suis Eric Tourvieille, développeur Web et Python avec une passion pour la création d’expériences numériques belles, fonctionnelles et centrées sur l’utilisateur.
@@ -40,7 +40,8 @@ const About = () => {
                             </p>
                         </div>
 
-                        <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light'>
+                        <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light
+                         xl:col-span-4 md:order-1 md:col-span-8'>
                             <div className='border-primary dark:bg-light' />
                             <Image src={profilePic} alt='Ma photo de profil' className='w-full h-auto bg-dark rounded-2xl dark:bg-black/70'
                                    priority
@@ -48,27 +49,26 @@ const About = () => {
                             />
                         </div>
 
-                        <div className="col-span-2 flex flex-col items-end justify-between ml-8 ">
-
+                        <div className="col-span-2 flex flex-col items-end justify-between ml-8 xl:col-span-8 xl:flex-row xl:items-center md:order-3">
                             <div className='flex flex-col items-center justify-center'>
                                 <span className='flex flex-col items-center justify-center'>
-                                    <Image src={webDesign} alt='Web Design' className='w-1/4 mb-2 dark:bg-light dark:rounded-lg' />
+                                    <Image src={webDesign} alt='Web Design' className='w-1/4 mb-2 dark:bg-light dark:rounded-lg sm:w-1/3' />
                                 </span>
-                                <h2 className='text-xl text-dark/75 font-semibold dark:text-light'>Web Design</h2>
+                                <h2 className='text-xl text-dark/75 font-semibold dark:text-light lg:text-base sm:text-xs sm:text-center'>Web Design</h2>
                             </div>
 
                             <div className='flex flex-col items-center justify-center'>
                                 <span className='flex flex-col items-center justify-center'>
-                                    <Image src={webDevelopment} alt='Web Development' className='w-1/4 mb-2 dark:bg-light dark:rounded-lg' />
+                                    <Image src={webDevelopment} alt='Web Development' className='w-1/4 mb-2 dark:bg-light dark:rounded-lg sm:w-1/3' />
                                 </span>
-                                <h2 className='text-xl text-dark/75 font-semibold dark:text-light'>Développement Web</h2>
+                                <h2 className='text-xl text-dark/75 font-semibold dark:text-light lg:text-base sm:text-xs sm:text-center'>Développement Web</h2>
                             </div>
 
                             <div className='flex flex-col items-center justify-center'>
                                 <span className='flex flex-col items-center justify-center'>
-                                    <Image src={devApp} alt='App Development' className='w-1/4 mb-2 dark:bg-light dark:rounded-lg' />
+                                    <Image src={devApp} alt='App Development' className='w-1/4 mb-2 dark:bg-light dark:rounded-lg sm:w-1/3' />
                                 </span>
-                                <h2 className='text-xl text-dark/75 font-semibold dark:text-light'>Développement d'App</h2>
+                                <h2 className='text-xl text-dark/75 font-semibold dark:text-light lg:text-base sm:text-xs sm:text-center'>Développement d'App</h2>
                             </div>
 
                         </div>

@@ -58,16 +58,17 @@ const NavBar = () => {
 
     return (
         <header className='w-full px-32 py-8 mb-8 font-semibold text-lg flex items-center justify-between text-blue-900
-        dark:text-light
+        dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8 lg:mb-0
         '>
 
-        <button className="flex-col justify-center items-center flex lg:hidden" onClick={handleClick}>
+        <button className="hidden flex-col justify-center items-center lg:flex" onClick={handleClick}>
             <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'} `}></span>
             <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'} `}></span>
             <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'} `}></span>
         </button>
 
-            <div className="w-full hidden justify-between items-center lg:flex">
+            <div className="w-full flex justify-between items-center lg:hidden">
+
             <nav>
                 <CustomLink href='/' title="Accueil" className='mr-4' toggle={handleClick}/>
                 <CustomLink href='/about' title="A propos" className='mx-4' toggle={handleClick}/>
@@ -130,7 +131,7 @@ const NavBar = () => {
                             <motion.a href='https://github.com/ElioTourvieille' target={"_blank"}
                                       whileHover={{y:-3}}
                                       whileTap={{scale:0.9}}
-                                      className='w-[2rem] mr-3 bg-light rounded-full dark:bg-dark'
+                                      className='w-[2rem] mr-3 bg-light rounded-full sm:mx-1 dark:bg-dark'
                             >
                                 <GithubIcon />
                             </motion.a>

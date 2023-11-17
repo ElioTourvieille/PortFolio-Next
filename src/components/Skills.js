@@ -85,12 +85,12 @@ const Skills = () => {
 
     return (
         <>
-            <h2 className='font-bold text-7xl mt-40 mb-24 w-full text-center'>Compétences</h2>
+            <h2 className='font-bold text-7xl mt-40 mb-24 w-full text-center lg:!text-6xl sm:!text-5xl xs:!text-4xl sm:mb-8'>Compétences</h2>
             <div className='mx-auto max-w-7xl'>
             <p className="font-medium">`Mon axe d'apprentissage est orienté full-stack et toutes les technologies et outils qui gravitent autour, afin
-               de pouvoir être impliqué dans les différentes étapes dun projet</p>
+               de pouvoir être impliqué dans les différentes étapes d'un projet.</p>
             <p className='my-4 font-medium'>La formation et les projets que j'ai effectués m'ont naturellement orientés vers une stack MERN
-                (MongoDB, Express, React Node). Cependant, comme chaque projet possèdent leurs propres spécificités,
+                (MongoDB, Express, React, Node). Cependant, comme chaque projet possèdent leurs propres spécificités,
                 je reste ouvert à l'apprentissage et l'utilisation des différentes technologies disponibles.</p>
             <p className='my-4 font-medium'>Je vois le métier de développeur comme un apprentissage permanent d'un ensemble de technologies qui
                 ne font qu'évoluer; c'est pourquoi mon appétence s'étend à tout ce qui touche mon métier, de près ou
@@ -104,6 +104,7 @@ const Skills = () => {
             hover:bg-dark hover:text-light transition-all ease duration-300
             ${activeTab === 'tab1' ? 'bg-dark text-light dark:bg-light dark:text-dark' : 'bg-light text-dark dark:bg-dark dark:text-light'}
             dark:border-light
+            lg:px-16 lg:text-sm md:px-12 sm:px-10 sm:py-3 sm:text-xs
             `} onClick={() => handleTabChange('tab1')}
                         >FRONTEND</label>
 
@@ -112,6 +113,7 @@ const Skills = () => {
             hover:bg-dark hover:text-light transition-all ease duration-300
             ${activeTab === 'tab2' ? 'bg-dark text-light dark:bg-light dark:text-dark' : 'bg-light text-dark dark:bg-dark dark:text-light'}
             dark:border-light
+            lg:px-16 lg:text-sm md:px-12 sm:px-10 sm:py-3 sm:text-xs
             `} onClick={() => handleTabChange('tab2')}
                         >BACKEND</label>
 
@@ -120,6 +122,7 @@ const Skills = () => {
             hover:bg-dark hover:text-light transition-all ease duration-300
             ${activeTab === 'tab3' ? 'bg-dark text-light dark:bg-light dark:text-dark' : 'bg-light text-dark dark:bg-dark dark:text-light'}
             dark:border-light
+            lg:px-16 lg:text-sm md:px-12 sm:px-10 sm:py-3 sm:text-xs
             `} onClick={() => handleTabChange('tab3')}
                         >OUTILS</label>
                     </div>
