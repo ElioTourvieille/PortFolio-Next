@@ -95,7 +95,7 @@ const Skills = () => {
             <p className='my-4 font-medium sm:text-sm'>Je vois le métier de développeur comme un apprentissage permanent d'un ensemble de technologies qui
                 ne font qu'évoluer; c'est pourquoi mon appétence s'étend à tout ce qui touche mon métier, de près ou
                 de loin.</p>
-            <p className='font-medium'>Mon objectif long terme est de me spécialiser dans le développement d'applications (web ou mobile).</p>
+            <p className='font-medium sm:text-sm'>Mon objectif long terme est de me spécialiser dans le développement d'applications (web ou mobile).</p>
             </div>
                 <div className="m-16">
                     <div className="flex justify-center items-center mx-auto mb-10">
